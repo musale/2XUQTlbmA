@@ -6,7 +6,7 @@ tmp
 __pycache__
 
 *.pyc
-*.sqlite
+*.sqlite*
 *.coverage
 .DS_Store
 env.sh
