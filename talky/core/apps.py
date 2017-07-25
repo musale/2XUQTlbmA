@@ -8,3 +8,7 @@ class CoreConfig(AppConfig):
     """Application CoreConfig."""
 
     name = 'core'
+
+    def ready(self):
+        """Ready go."""
+        import core.signals
